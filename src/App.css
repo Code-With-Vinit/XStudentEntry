@@ -1,0 +1,87 @@
+body{
+  height: 95vh;
+  width: 97vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container{
+  background-color: antiquewhite;
+  width: 60vw;
+  height: 100%;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Form .input{
+  height: 25px;
+  width: 18vw;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+.Form .select{
+  height: 36px;
+  width: 18vw;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+.btn{
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px;
+  margin-top: 8px;
+}
+.clear{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 8px;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  width: calc(100% / 4); /* For 4 columns */
+}
+
+th {
+  background: #f3f3f3;
+}
+.remove{
+  background-color: rgb(248, 197, 197);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(247, 94, 94);
+  font-weight: 800;
+}
