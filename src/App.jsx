@@ -55,6 +55,7 @@ function App() {
                   className="input" 
                   type="text"
                   name="name"
+                  placeholder="e.g. MS Dhoni"
                   value={formData.name}
                   onChange={handleChange} />
               </div>
@@ -66,6 +67,7 @@ function App() {
                   className="input" 
                   type="text"
                   name="age"
+                  placeholder="e.g. 14"
                   value={formData.age}
                  onChange={handleChange} />
               </div>
@@ -79,19 +81,19 @@ function App() {
                   value={formData.grade}
                   onChange={handleChange}
                   >
-                    <option default value="default">Select Grade</option>
-                    <option value="class 1">class 1</option>
-                    <option value="class 2">class 2</option>
-                    <option value="class 3">class 3</option>
-                    <option value="class 4">class 4</option>
-                    <option value="class 5">class 5</option>
-                    <option value="class 6">class 6</option>
-                    <option value="class 7">class 7</option>
-                    <option value="class 8">class 8</option>
-                    <option value="class 9">class 9</option>
-                    <option value="class 10">class 10</option>
-                    <option value="class 11">class 11</option>
-                    <option value="class 12">class 12</option>                 
+                    <option default value="default">Select grade</option>
+                    <option value="1">class 1</option>
+                    <option value="2">class 2</option>
+                    <option value="3">class 3</option>
+                    <option value="4">class 4</option>
+                    <option value="5">class 5</option>
+                    <option value="6">class 6</option>
+                    <option value="7">class 7</option>
+                    <option value="8">class 8</option>
+                    <option value="9">class 9</option>
+                    <option value="10">class 10</option>
+                    <option value="11">class 11</option>
+                    <option value="12">class 12</option>                 
                   </select>
               </div>
           </div>
