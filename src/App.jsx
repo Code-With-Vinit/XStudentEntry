@@ -81,19 +81,19 @@ function App() {
                   value={formData.grade}
                   onChange={handleChange}
                   >
-                    <option default value="default">Select grade</option>
-                    <option value="1">class 1</option>
-                    <option value="2">class 2</option>
-                    <option value="3">class 3</option>
-                    <option value="4">class 4</option>
-                    <option value="5">class 5</option>
-                    <option value="6">class 6</option>
-                    <option value="7">class 7</option>
-                    <option value="8">class 8</option>
-                    <option value="9">class 9</option>
-                    <option value="10">class 10</option>
-                    <option value="11">class 11</option>
-                    <option value="12">class 12</option>                 
+                    <option default value="Select grade">Select grade</option>
+                    <option value="1">Class 1</option>
+                    <option value="2">Class 2</option>
+                    <option value="3">Class 3</option>
+                    <option value="4">Class 4</option>
+                    <option value="5">Class 5</option>
+                    <option value="6">Class 6</option>
+                    <option value="7">Class 7</option>
+                    <option value="8">Class 8</option>
+                    <option value="9">Class 9</option>
+                    <option value="10">Class 10</option>
+                    <option value="11">Class 11</option>
+                    <option value="12">Class 12</option>                 
                   </select>
               </div>
           </div>
