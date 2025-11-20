@@ -81,7 +81,7 @@ function App() {
                   value={formData.grade}
                   onChange={handleChange}
                   >
-                    <option default value="Select grade">Select grade</option>
+                    <option default value="">Select grade</option>
                     <option value="1">Class 1</option>
                     <option value="2">Class 2</option>
                     <option value="3">Class 3</option>
@@ -108,7 +108,7 @@ function App() {
       {rows.length===0 ?(
             <table>
               <tr>
-                <td colSpan="4">No data yet</td>
+                <td colSpan="4">No students added yet.</td>
               </tr>
             </table>
             ):(
